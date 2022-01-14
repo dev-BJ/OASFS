@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+
+.container-fluid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:100vh;
+
+}
+
+.container-fluid .head{
+    width: 100%;
+    height: 15%;
+    background-image: linear-gradient(rgba(0,255,0,0.5),rgba(0,255,0,0.8));
+    background-position: 100% 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-fluid .head img{
+    margin: 2px;
+    border-radius: 50px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.container-fluid .body{
+    width: 100%;
+    height: 85%;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bleft , .bright{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bleft{
+    flex-direction: column;
+}
+.text{
+    font-size: 50px;
+}
+.bright{
+    background-image: linear-gradient(rgba(0,255,0,0.5),rgba(0,255,0,0.8));
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 5px 5px 1px black inset;
+}
+
+.bright img , .bright span{
+    display:block;
+}
+
+.bright img{
+    border-radius: 30px;
+}
+
+.text-info{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login-form{
+    min-height: 250px;
+    height: auto;
+width: 255px;
+border: 2px grey solid;
+border-radius: 5px;
+box-shadow: 0px 5px 5px 0px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.login-form input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sleft , .sright{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-fluid .sleft{
+
+}
+
+.container-fluid .sright{
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head img , .head span , .head div{
+    margin: 5px;
+}
+
+.table{
+    border: 2px black solid;
+    table-layout: auto;
+    width: auto;
+    border-radius: 5px;
+}
+
+.error{
+    background-color: red;
+}
+
+.reg-form{
+    min-height: 250px;
+    height: auto;
+width: 255px;
+border: 2px grey solid;
+border-radius: 5px;
+box-shadow: 0px 5px 5px 0px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
